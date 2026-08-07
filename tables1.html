@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Tables Design</title>
+    </head>
+    <body>
+        <table border="1" cellspacing="5" cellpadding="10" align="center">
+            <caption> List of Movies </caption>
+            <thead>
+                <tr>
+                    <th>Movie Name</th>
+                    <th>Release Year</th>
+                    <th>Director</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Simhadri</td>
+                <td>2003</td>
+                <td>S. S. Rajamouli</td>
+            </tr>
+            <tr>
+                <td>Temper</td>
+                <td>2015</td>
+                <td>Puri Jagannadh</td>
+                <td>Remarks</td>
+            </tr>
+            <tr>
+                <td>Nannaku Prematho</td>
+                <td>2016</td>
+                <td>Sukumar</td>
+            </tr>
+            <tr>
+                <td>Janatha Garage</td>
+                <td>2016</td>
+                <td>Koratala Siva</td>
+            </tr>
+            <tr>
+                <td>Ninnu Choodalani</td>
+                <td>2001</td>
+                <td>V. R. Pratap</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" align="center">All movies are directed by famous directors.</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h2>Rowspan and Colspan</h2>
+        <table border="1">
+            <tr>
+                <th rowspan="2">Movie Name</th>
+                <th colspan="2">Details</th>
+            </tr>
+            <tr>
+                <th>Release Year</th>
+                <th>Director</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Simhadri</td>
+                <td>2003</td>
+                <td>S. S. Rajamouli</td>
+            </tr>
+            <tr>
+                <td colspan="2">This movie was a blockbuster hit.</td>
+            </tr>
+        </table>
+    </body>    
+</html>
